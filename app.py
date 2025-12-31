@@ -7,7 +7,11 @@ import pickle
 
 
 ## Load the trained model
-model=tf.keras.models.load_model('model.keras')
+
+model = tf.keras.models.load_model(
+    "model.keras",
+    compile=False
+)
 
 ## Load the encoder and scaler
 
