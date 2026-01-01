@@ -9,7 +9,7 @@ import pickle
 ## Load the trained model
 
 model = tf.keras.models.load_model(
-    "model.keras",
+    "model.h5",
     compile=False
 )
 
